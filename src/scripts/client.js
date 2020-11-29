@@ -43,7 +43,7 @@ const main = async () => {
     // WARNING: It is best practice to use the VoxeetSDK.initializeToken function to initialize the SDK.
     // Please read the documentation at:
     // https://dolby.io/developers/interactivity-apis/client-sdk/initializing
-    VoxeetSDK.initialize('customerKey', 'customerSecret');
+    VoxeetSDK.initialize('ZV-TVxoagmQ50zwQy5SrCg==', 'oXY81Q_HNHqGngfGcwGMtlFN0121MvsPJbxisbNfL1s=');
 
     // Open a session for the user
     await VoxeetSDK.session.open({ name: randomName });
